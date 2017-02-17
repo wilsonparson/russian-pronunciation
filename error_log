@@ -1,0 +1,19 @@
+[11-Dec-2015 07:47:11 UTC] PHP Parse error:  syntax error, unexpected 'exec' (T_STRING) in /home/wilsonpa/public_html/russianHardAndSoft/testpython.php on line 2
+[11-Dec-2015 07:47:37 UTC] PHP Parse error:  syntax error, unexpected 'exec' (T_STRING) in /home/wilsonpa/public_html/russianHardAndSoft/testpython.php on line 2
+[11-Dec-2015 07:47:40 UTC] PHP Parse error:  syntax error, unexpected 'exec' (T_STRING) in /home/wilsonpa/public_html/russianHardAndSoft/testpython.php on line 2
+[11-Dec-2015 07:56:57 UTC] PHP Parse error:  syntax error, unexpected 'helloworld' (T_STRING), expecting ',' or ';' in /home/wilsonpa/public_html/russianHardAndSoft/hardAndSoftTagger.php on line 49
+[11-Dec-2015 07:57:34 UTC] PHP Parse error:  syntax error, unexpected 'helloworld' (T_STRING), expecting ',' or ';' in /home/wilsonpa/public_html/russianHardAndSoft/hardAndSoftTagger.php on line 49
+[11-Dec-2015 07:57:42 UTC] PHP Parse error:  syntax error, unexpected 'helloworld' (T_STRING), expecting ',' or ';' in /home/wilsonpa/public_html/russianHardAndSoft/hardAndSoftTagger.php on line 49
+[11-Dec-2015 08:04:11 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/wilsonpa/public_html/russianHardAndSoft/hardAndSoftTagger.php on line 45
+[11-Dec-2015 08:22:21 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/wilsonpa/public_html/russianHardAndSoft/hardAndSoftTagger.php on line 48
+[12-Dec-2015 23:08:15 UTC] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/wilsonpa/public_html/russianHardAndSoft/hardAndSoftTagger.php on line 46
+[12-Dec-2015 23:08:42 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/wilsonpa/public_html/russianHardAndSoft/hardAndSoftTagger.php on line 46
+[12-Dec-2015 23:08:45 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/wilsonpa/public_html/russianHardAndSoft/hardAndSoftTagger.php on line 46
+[12-Dec-2015 23:32:03 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/wilsonpa/public_html/russianHardAndSoft/hardAndSoftTagger.php on line 50
+[12-Dec-2015 23:35:36 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/wilsonpa/public_html/russianHardAndSoft/hardAndSoftTagger.php on line 50
+[13-Dec-2015 00:28:59 UTC] PHP Warning:  preg_replace(): Empty regular expression in /home/wilsonpa/public_html/russianHardAndSoft/hardAndSoftTagger.php on line 45
+[13-Dec-2015 01:05:37 UTC] PHP Parse error:  syntax error, unexpected '/', expecting ')' in /home/wilsonpa/public_html/russianHardAndSoft/hardAndSoftTagger.php on line 46
+[13-Dec-2015 01:49:04 UTC] PHP Parse error:  syntax error, unexpected '$exceptionsAlwaysHard' (T_VARIABLE) in /home/wilsonpa/public_html/russianHardAndSoft/hardAndSoftTagger.php on line 49
+[13-Dec-2015 01:49:36 UTC] PHP Warning:  preg_replace(): Unknown modifier '(' in /home/wilsonpa/public_html/russianHardAndSoft/hardAndSoftTagger.php on line 48
+[13-Dec-2015 01:49:36 UTC] PHP Warning:  preg_replace(): Unknown modifier '(' in /home/wilsonpa/public_html/russianHardAndSoft/hardAndSoftTagger.php on line 49
+[13-Dec-2015 01:49:36 UTC] PHP Warning:  preg_replace(): Unknown modifier '(' in /home/wilsonpa/public_html/russianHardAndSoft/hardAndSoftTagger.php on line 50
