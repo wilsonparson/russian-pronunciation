@@ -3,8 +3,6 @@
 	<head>
 		<title>Hard and Soft Vowels</title>
 		<meta charset= "unicode"/>
-		<link rel= "stylesheet" href= "style.css"/>
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 	</head>
 	
 	<body>
@@ -25,9 +23,8 @@
 		
 		
 		
-			<div class= "h1Box"> <h1>Hard and Soft Vowels</h1> </div>
+			<h1>Hard and Soft Vowels</h1>
 		
-		<div class= "mainBox">
 		<main>	
 		
 				<p>
