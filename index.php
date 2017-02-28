@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Hard and Soft Vowels</title>
-		<meta charset= "unicode"/>
-	</head>
-	
+	<?php include 'includes/head.php' ?>	
 	<body>
-	
+        <?php include 'includes/header.html' ?>
+        <?php include 'includes/nav.php' ?>
 			<nav>
 				<a href= "index.html">Introduction</a>
 				<a href= "hardAndSoftVowels.html" class= "currentPage">Hard and Soft Vowels</a>
