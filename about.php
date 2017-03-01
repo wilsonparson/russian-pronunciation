@@ -1,10 +1,9 @@
 <!DOCTYPE HTML>
 <html>
-	<?php include 'head.php'?>
+	<?php include 'includes/head.php'?>
 	<body>
-		<?php include 'header.html'?>
-		<?php include 'nav.html'?>
-<?php echo "hi"?>
+		<?php include 'includes/header.php'?>
+		<?php include 'includes/nav.php'?>
 		<main>
 			<h1>About This Tool</h1>
 		
@@ -12,8 +11,8 @@
 
 				<p>After I returned home from my mission, I worked as a teacher at the MTC for three years, and I made it a point to teach each group of missionaries about hard and soft pronunciation. As I was teaching, I realized that there was hardly any written instructional material on the subject, so I created this website for a class project.</p>
 
-				<p>The content of this learning tool is based on instruction from my MTC teacher, Chris Storey, as well as on material from Nicholas J. Brown's book <i><a href="https://www.amazon.com/New-Penguin-Russian-Course-Beginners/dp/0140120416">The New Penguin Russian Course: A Complete Guide for Beginners</a></i>.
+				<p>The content of this learning tool is based on instruction from my MTC teacher, Chris Storey, as well as on material from Nicholas J. Brown's book <i><a href="https://www.amazon.com/New-Penguin-Russian-Course-Beginners/dp/0140120416">The New Penguin Russian Course: A Complete Guide for Beginners</a></i></p>
 		</main>
-		<?php include 'footer.html'?>
+		<?php include 'includes/footer.php'?>
 	</body>
 </html>
