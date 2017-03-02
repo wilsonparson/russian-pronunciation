@@ -1,30 +1,30 @@
-<audio id= "zhenaHard">
-    <source  src= "zhenaHard.wav">
+<audio preload="auto">
+    <source  src="audio/жена (жэна).wav">
 </audio>
-<audio id= "zhenaSoft">
-    <source  src= "zhenaSoft.wav">
+<audio preload="auto">
+    <source  src="audio/жена (жьена).wav">
 </audio>
-<audio id= "shestHard">
-    <source  src= "shestHard.wav">
+<audio preload="auto">
+    <source  src="audio/шесть (шэсть).wav">
 </audio>
-<audio id= "shestSoft">
-    <source  src= "shestSoft.wav">
+<audio preload="auto">
+    <source  src="audio/шесть (шьесть).wav">
 </audio>
-<audio id= "tserkovHard">
-    <source  src= "tserkovHard.wav">
+<audio preload="auto">
+    <source  src="audio/церковь (цэрковь).wav">
 </audio>
-<audio id= "tserkovSoft">
-    <source  src= "tserkovSoft.wav">
+<audio preload="auto">
+    <source  src="audio/церковь (цьерковь).wav">
 </audio>
-<audio id= "tselHardSoft">
-    <source  src= "tselHardSoft.wav">
+<audio preload="auto">
+    <source  src="audio/цель (цэль).wav">
 </audio>
-<audio id= "tselSoftHard">
-    <source  src= "tselSoftHard.wav">
+<audio preload="auto">
+    <source  src="audio/цель (цьел).wav">
 </audio>
-<audio id= "tselSoftSoft">
-    <source  src= "tselSoftSoft.wav">
+<audio preload="auto">
+    <source  src="audio/цель (цьель).wav">
 </audio>
-<audio id= "tselHardHard">
-    <source  src= "tselHardHard.wav">
+<audio preload="auto">
+    <source  src="audio/цель (цэл).wav">
 </audio>

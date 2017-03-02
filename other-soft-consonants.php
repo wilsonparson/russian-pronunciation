@@ -1,96 +1,56 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-	<head>
-		<title>Other Soft Consonants</title>
-		<meta charset= "unicode"/>
-		<link rel= "stylesheet" href= "style.css" />
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-	</head>
-	
+    <head>
+        <?php include 'includes/persistent-head-elements.php' ?>	
+    </head>
 	<body>
+        <?php include 'includes/header.php' ?>
+        <?php include 'includes/nav.php' ?>
+        
+        <main>    
+			<h1>7. Other Soft Consonants</h1>
 
-			<nav>
-				<a href= "index.html">Introduction</a>
-				<a href= "hardAndSoftVowels.html">Hard and Soft Vowels</a>
-				<a href= "hardAndSoftConsonants.html">Hard and Soft Consonants</a>
-				<a href= "softAndHardSigns.html">The Soft and Hard Signs</a>
-				<a href= "softL.html">The Soft Л</a>
-				<a href= "softLContinued.html">The Soft Л (continued)</a>
-				<a href= "softT.html">The Soft Т</a>
-				<a href= "otherSoftConsonants.html" class= "currentPage">Other Soft Consonants</a>
-				<a href= "exceptionsAlwaysHard.html">Exceptions: Ж, Ш, and Ц (Always Hard)</a>
-				<a href= "exceptionsAlwaysSoft.html">Exceptions: Ч and Щ (Always Soft)</a>
-				<a href= "hardAndSoftTagger.php">Soft Consonant Tagging Tool</a>
-			</nav>
-		
-		<div class= "h1Box"> <h1>Other Soft Consonants</h1> </div>
-		
-		<div class= "mainBox">
-		<main>
-				<p>
-					Although the soft л and soft т are the most noticeable soft consonants in Russian, nearly all of the remaining consonants have a hard and soft pronunciation. Below are a few examples of consonants in their hard and soft forms. Click on the words or phrases to hear how they are pronounced with hard pronunciation, and with soft pronunciation.
-				</p>
-				
-				<table border= "1">
-					<tr>
-						<td class= "inactive">Hard Pronunciation</td>
-						<td class= "inactive">Soft Pronunciation</td>
-						<td class= "inactive">Tips</td>
-					</tr>
-					<tr>
-						<td onClick= "document.getElementById('dobryDenHard').play()">Добрый дэн</td>
-						<td onClick= "document.getElementById('dobryDenSoft').play()">Добрый день</a></td>
-						<td class= "inactive">Soft Д = (Д + pinch of "z")</td>
-					</tr>
-					<tr>
-						<td onClick= "document.getElementById('semHard').play()">сем</td>
-						<td onClick= "document.getElementById('semSoft').play()">семь</td>
-						<td class= "inactive">Soft М = (М + "smile")</td>
-					</tr>
-					<tr>
-						<td onClick= "document.getElementById('vesHard').play()">вес</td>
-						<td onClick= "document.getElementById('vesSoft').play()">весь</td>
-						<td class= "inactive">Soft С = (С + "smile")</td>
-					</tr>
-					<tr>
-						<td onClick= "document.getElementById('tsarHard').play()">цар</td>
-						<td onClick= "document.getElementById('tsarSoft').play()">царь</td>
-						<td class= "inactive">Soft Р = (Р + "smile")</td>
-					</tr>
+				<p>Although the soft л and soft т are the most noticeable soft consonants in Russian, nearly all of the remaining consonants have a hard and soft pronunciation. Below are a few examples of consonants in their hard and soft forms. Click on the words or phrases to hear how they are pronounced with hard pronunciation, and with soft pronunciation.</p> 
+
+				<table>
+                    <thead>
+                        <tr>
+                            <th colspan=3>Hard vs. Soft Pronunciation</th>
+                        </tr>
+                        <tr>
+                            <th>Hard</th>
+                            <th>Soft</th>
+                            <th>Tips</th>
+                        </tr>
+                   </thead>
+                    <tbody>
+                        <tr>
+                            <td><button type="button">Добрый дэн</button></td>
+                            <td><button type="button">Добрый день</button></td>
+                            <td>Soft Д = (Д + pinch of <q>z</q>)</td>
+                        </tr>
+                        <tr>
+                            <td><button type="button">сем</button></td>
+                            <td><button type="button">семь</button></td>
+                            <td>Soft М = (М + <q>smile</q>)</td>
+                        </tr>
+                        <tr>
+                            <td><button type="button">вес</button></td>
+                            <td><button type="button">весь</button></td>
+                            <td>Soft С = (С + <q>smile</q>)</td>
+                        </tr>
+                        <tr>
+                            <td><button type="button">цар</button></td>
+                            <td><button type="button">царь</button></td>
+                            <td>Soft Р = (Р + <q>smile</q>)</td>
+                        </tr>
+                    </tbody>
 				</table>
 				
-				<p>
-					You may have noticed that the "Tips" column at the right includes some formulas for pronunciation. The word "smile" suggests that the speaker's pronunciation becomes more shallow, as if he or she is "smiling." These soft consonants are not nearly as noticeable as the soft л or soft т. However, you might hear a slight difference in how the words are pronounced when comparing the audio from the "Hard Pronunciation" column to the "Soft Pronunciation" column.
-				</p>
+				<p>The <q>Tips</q> column at the right includes some formulas for pronunciation. The word <q>smile</q> suggests that the speaker's pronunciation becomes more shallow, as if he or she is <q>smiling.</q> These soft consonants are not nearly as noticeable as the soft л or soft т. However, you might hear a slight difference in how the words are pronounced when comparing the audio from the <q>Hard Pronunciation</q> column to the <q>Soft Pronunciation</q> column.</p>
 
-			
+            <?php include 'includes/audio-other-soft-consonants.php'?>	
 		</main>
-		</div>
-		
-				<audio id= "dobryDenHard">
-					<source  src= "audio/dobryDenHard.wav">
-				</audio>
-				<audio id= "dobryDenSoft">
-					<source  src= "audio/dobryDenSoft.wav">
-				</audio>
-				<audio id= "semHard">
-					<source  src= "audio/semHard.wav">
-				</audio>
-				<audio id= "semSoft">
-					<source  src= "audio/semSoft.wav">
-				</audio>
-				<audio id= "vesHard">
-					<source  src= "audio/vesHard.wav">
-				</audio>
-				<audio id= "vesSoft">
-					<source  src= "audio/vesSoft.wav">
-				</audio>
-				<audio id= "tsarHard">
-					<source  src= "audio/tsarHard.wav">
-				</audio>
-				<audio id= "tsarSoft">
-					<source  src= "audio/tsarSoft.wav">
-				</audio>
-		
+	    <?php include 'includes/footer.php' ?>	
 	</body>
 </html>

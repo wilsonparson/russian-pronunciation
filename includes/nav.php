@@ -3,7 +3,7 @@
 		<ol>
             <a href="index.php"><li>Hard and Soft Vowels</li></a>
             <a href="hard-and-soft-consonants.php"><li>Hard and Soft Consonants</li></a>
-            <a href="soft-and-hard-signs.php"><li>The Hard and Soft Signs</li></a>
+            <a href="hard-and-soft-signs.php"><li>Hard and Soft Signs</li></a>
             <a href="soft-l.php"><li>Soft Л</li></a>
             <a href="soft-l-continued.php"><li>Soft Л cont.</li></a>
             <a href="soft-t.php"><li>Soft Т</li></a>
