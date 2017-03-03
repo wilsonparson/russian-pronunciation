@@ -25,8 +25,8 @@
                    </thead>
                     <tbody>
                         <tr>
-                            <td><button type="button">Добрый дэн</button></td>
-                            <td><button type="button">Добрый день</button></td>
+                            <td><button type="button">добрый дэн</button></td>
+                            <td><button type="button">добрый день</button></td>
                             <td>Soft Д = (Д + pinch of <q>z</q>)</td>
                         </tr>
                         <tr>
@@ -51,6 +51,7 @@
 
             <?php include 'includes/audio-other-soft-consonants.php'?>	
 		</main>
+        <?php include 'includes/prev-next.php'?>
 	    <?php include 'includes/footer.php' ?>	
 	</body>
 </html>

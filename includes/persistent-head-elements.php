@@ -2,3 +2,4 @@
 <meta charset="unicode">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="scripts/link-buttons-to-audio.js" async></script>
+<script src="scripts/add-href-to-prev-next.js" async></script>

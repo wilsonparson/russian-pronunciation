@@ -73,6 +73,7 @@
 
             <?php include 'includes/audio-hard-and-soft-signs.php'?>
 		</main>
+        <?php include 'includes/prev-next.php'?>
 	    <?php include 'includes/footer.php' ?>	
     </body>
 </html>

@@ -49,7 +49,11 @@
 			<p>You may have noticed that и is a little different from the other soft vowels. With the other soft vowels, the <q>y</q> sound is pronounced at the beginning of the vowel; with и, the <q>y</q> sound is pronounced throughout the entire vowel.</p>
 			
             <?php include 'includes/audio-hard-and-soft-vowels.php'?>	
+            
 		</main>
+
+        <?php include 'includes/prev-next.php'?>
 	    <?php include 'includes/footer.php' ?>	
+
 	</body>
 </html>

@@ -1,25 +1,25 @@
-				<audio id= "dobryDenHard">
-					<source  src= "audio/dobryDenHard.wav">
-				</audio>
-				<audio id= "dobryDenSoft">
-					<source  src= "audio/dobryDenSoft.wav">
-				</audio>
-				<audio id= "semHard">
-					<source  src= "audio/semHard.wav">
-				</audio>
-				<audio id= "semSoft">
-					<source  src= "audio/semSoft.wav">
-				</audio>
-				<audio id= "vesHard">
-					<source  src= "audio/vesHard.wav">
-				</audio>
-				<audio id= "vesSoft">
-					<source  src= "audio/vesSoft.wav">
-				</audio>
-				<audio id= "tsarHard">
-					<source  src= "audio/tsarHard.wav">
-				</audio>
-				<audio id= "tsarSoft">
-					<source  src= "audio/tsarSoft.wav">
-				</audio>
-		
+<audio>
+    <source  src="audio/добрый дэн.wav">
+</audio>
+<audio>
+    <source  src="audio/добрый день.wav">
+</audio>
+<audio>
+    <source  src="audio/сем.wav">
+</audio>
+<audio>
+    <source  src="audio/семь.wav">
+</audio>
+<audio>
+    <source  src="audio/вес.wav">
+</audio>
+<audio>
+    <source  src="audio/весь.wav">
+</audio>
+<audio>
+    <source  src="audio/цар.wav">
+</audio>
+<audio>
+    <source  src="audio/царь.wav">
+</audio>
+

@@ -51,6 +51,7 @@
 		
             <?php include 'includes/audio-exceptions-always-hard.php'?> 
 		</main>
+        <?php include 'includes/prev-next.php'?>
         <?php include 'includes/footer.php'?>
    	</body>
 </html>
