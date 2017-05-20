@@ -1,15 +1,12 @@
 var URLFrags = (window.location.href).split("/");
 var relativeURL = URLFrags[URLFrags.length-1];
-var navs = document.getElementsByTagName('nav');
-var navOL = navs[0].getElementsByTagName('ol')[0];
-var nextPrev = navs[1];
-var prev = nextPrev.firstElementChild;
-var next = nextPrev.lastElementChild;
-var curPageOlItem = document.querySelector("nav > ol > a[href*='"+relativeURL+"']");
+var btnPrevPage = document.getElementById('btnPrevPage');
+var btnNextPage = document.getElementById('btnNextPage');
+var nav_curPage = document.querySelector("#mainNav a[href*='"+relativeURL+"']"); //Will be null on index, because no filename in url
 
 // Remove < Prev link if on first page
-if (curPageOlItem == null || curPageOlItem.getAttribute("href") == "index.php") {
-    prev.style.display = "none";
+if (nav_curPage == null || nav_curPage.getAttribute("href") == "index.php") {
+    btnPrevPage.style.display = "none";
 }
 
 // remove Next > link if on last page

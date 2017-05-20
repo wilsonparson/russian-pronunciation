@@ -7,7 +7,7 @@ function callColorizeText(e) {
 
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
-            editableDiv.innerHTML = this.responseText;
+            document.getElementById("colorize-text-result").innerHTML = this.responseText;
         }
     };
     xmlhttp.open("POST", "scripts/colorize-text.php");
