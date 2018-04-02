@@ -1,9 +1,12 @@
+---
+---
+
 appendAudioElements();
 
 function appendAudioElements() {
   let fragment = document.createDocumentFragment();
   document.querySelectorAll('[data-audio]').forEach((element) => {
-    let audioSrc = '/audio/' + element.getAttribute('data-audio');
+    let audioSrc = '{{site.baseurl}}/audio/' + element.getAttribute('data-audio');
     element.addEventListener('click', () => {
       document.querySelector(`audio[src="${audioSrc}"]`).play();
     });
