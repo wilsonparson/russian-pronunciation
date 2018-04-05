@@ -1,0 +1,17 @@
+main {
+    counter-reset: section;
+}
+
+section h2:first-of-type::before {
+    counter-increment: section;
+    content: counter(section, decimal-leading-zero)" ";
+}
+
+nav ol {
+    counter-reset: li;
+
+    li::before {
+        counter-increment: li;
+        content: counter(li, decimal-leading-zero)" ";
+    }
+}   

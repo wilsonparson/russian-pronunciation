@@ -5,17 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>{{site.title}}</title>
+  <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
   <script src="{{site.baseurl}}/js/audio.js" defer></script>
 </head>
 <body>
-  {% include 01-hard-and-soft-vowels.html %}
-  {% include 02-hard-and-soft-consonants.html %}
-  {% include 03-hard-and-soft-signs.html %}
-  {% include 04-soft-l.html %}
-  {% include 05-soft-t.html %}
-  {% include 06-other-soft-consonants.html %}
-  {% include 07-exceptions.html %}
-  {% include 08-practice.html %}
-  {% include footer.html %}
+  <header>
+    <nav>
+      <ol>
+        <li><a href="#hard-and-soft-vowels">Hard and Soft Vowels</a></li>
+        <li><a href="#hard-and-soft-consonants">Hard and Soft Consonants</a></li>
+        <li><a href="#hard-and-soft-signs">Hard and Soft Signs</a></li>
+        <li><a href="#soft-l">Soft Л</a></li>
+        <li><a href="#soft-t">Soft Т</a></li>
+        <li><a href="#other-soft-consonants">Other Soft Consonants</a></li>
+        <li><a href="#exceptions">Exceptions</a></li>
+        <li><a href="#practice">Practice</a></li>
+      </ol>
+      <ul>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    {% include 01-hard-and-soft-vowels.html %}
+    {% include 02-hard-and-soft-consonants.html %}
+    {% include 03-hard-and-soft-signs.html %}
+    {% include 04-soft-l.html %}
+    {% include 05-soft-t.html %}
+    {% include 06-other-soft-consonants.html %}
+    {% include 07-exceptions.html %}
+    {% include 08-practice.html %}
+  </main>
 </body>
 </html>
